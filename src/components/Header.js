@@ -14,7 +14,7 @@ function Header(props) {
   return (
     <header>
       <h1>My Portfolio</h1>
-      <nav style={navStyle}>
+      <nav style={navStyle} className='nav'>
         <Link to="/">
           <div>HOME</div>
         </Link>

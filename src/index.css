@@ -15,6 +15,7 @@ code {
 img{
   max-width: fit-content;
   max-height: 200px;
+  box-shadow: 10px 10px 5px rgb(1, 1, 1);
 }
 
 a{
@@ -23,4 +24,34 @@ a{
 
 div{
   text-align: center;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(80deg, silver, #0111c4);
+  padding: 10px;
+  font-size: 1em;
+}
+
+.nav a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(0, 0, 133);
+}
+
+h1, h2, h3{
+  background: linear-gradient(45deg, rgb(208, 207, 207), #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+  color: silver;
 }
